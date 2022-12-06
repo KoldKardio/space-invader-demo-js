@@ -1,0 +1,30 @@
+body {background-color: #2e2e2e;}
+
+.grid {
+    width: 300px; height: 300px;
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div {
+    width: 20px; height: 20px; 
+    /* border: 1px solid #d47500; */
+}
+.invader {
+    background-color: coral;
+    border-radius: 10px;
+}
+.ship {
+    background-color: white;
+}
+.results {
+    color: aliceblue;
+}
+
+.laser {
+    background-color: blue;
+}
+
+.boom {
+    background-color: yellow;
+}
